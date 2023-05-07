@@ -1,0 +1,194 @@
+body{
+    background-size: cover;
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color: #F9F7F7;
+    background: linear-gradient(to top left, #33ccff 0%, #ff9999 100%);
+  /*  background-image: linear-gradient(to right bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  */
+  }
+  
+  #logo{
+  
+      width: 350px;
+      border-radius: 30%;
+      position: relative;
+      top: 30px;
+      text-align: center;
+      margin: 20px 10px;
+  }
+  
+  .background-pic{
+      height: 400px;
+      width: 100%;
+  }
+  
+  .btn1:hover{
+      color: white;
+  }
+  
+  .cards{
+      margin-top: 100px;
+      border-radius: 25px;
+      border-radius: 25px;
+      box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+      background: linear-gradient(to bottom right, #33ccff 0%, #ff99cc 100%);
+  }
+  .pic {
+      width: 350px;
+      border-radius: 30%;
+      position: relative;
+      top: 30px;
+      text-align: center;
+      margin: 20px 10px;
+  }
+  .skill-content{
+      margin: 20px;
+  }
+  
+  .container1{
+    display: inline-block;
+  }
+  .typed-out{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    animation: typing 0.4s steps(8, end) forwards;
+    font-size: 1.6rem;
+    width: 0;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  @keyframes blink {
+    from { border-color: transparent }
+    to { border-color: orange; }
+  }
+  
+  .center {
+      text-align: center;
+  }
+  
+  #profile-pic {
+      width: 150px;
+      border-radius: 25px;
+      margin-top: 20px;
+  }
+  
+  .intro {
+      margin-top: 20px;
+      background-color: #DBE2EF;
+      border-radius: 25px;
+      box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+      background: linear-gradient(to bottom right, #33ccff 0%, #ff99cc 100%);
+      background-image: linear-gradient(to right bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  }
+  
+  .margin-20{
+      margin: 20px;
+  }
+  .margin-10{
+      margin: 10px;
+  }
+  
+  .margin-60{
+      margin: 60px;
+  }
+  
+  .margin-top{
+      margin-top: 80px;
+  }
+  
+  .margin-top-20{
+      margin-top: 20px;
+  }
+  
+  .margin-bottom{
+      margin-bottom: 80px;
+  }
+  
+  .width-30{
+      width: 30px;
+  }
+  
+  .contact{
+      height: 600px;
+      width: 700px;
+      border-radius: 25px;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+      background: linear-gradient(to left, #00ffcc 0%, #3399ff 100%);
+  }
+  
+  .design_images{
+      width: 150px;
+      position: relative;
+      right: 30px;
+  }
+  
+  .box-shadow {
+        font-family: 'Trebuchet MS', sans-serif;
+        background-color: #A6E3E9;
+        color: black;
+        padding: 10px;
+        border-radius: 4px;
+        box-shadow: 2px 2px 20px 23px #CBF1F5;
+      }
+  
+  .red{
+      background-color: red;
+  }
+  
+  .footer{
+      text-align: center;
+      background: #444444;
+      height: 100px;
+      font-family: 'Open Sans', sans-serif;
+      color: #FFFFFF;
+      padding: 20px;
+      margin-top: 50px;
+      margin-bottom: 20px;
+  }
+  
+  .footer-margin{
+      margin: 0% 25%;
+  }
+  
+  .footer-pic{
+      margin: 20px 20px 20px 0px;
+      width: 40px;
+      border-radius: 50%;
+  }
+  
+  .bottom-container {
+    background-color: #66BFBF;
+    margin-top: 50px;
+    padding-top: 50px;
+    height: 180px;
+    text-align: center;
+    width: 100%;
+    background: linear-gradient(to bottom, #ffcccc 0%, #ccffff 100%)
+  }
+  
+  .footer-link {
+    width: 50px;
+    color: #11999E;
+    padding: 30px;
+    text-decoration: none;
+  }
+  
+  form .form-group:first-child .floating-label-form-group {
+    border-top: 1px solid #dee2e6;
+  }
+  
+  .background-img{
+    background-image: url("../static/Images/skills.png");
+  }
+  
+  .projectblock{
+      width: 30%;
+      height: 200px;
+      border-radius: 30px;
+      background-color: red;
+      margin: 20px;
+  
+  }
